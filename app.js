@@ -8,8 +8,8 @@ const url = "https://public.tableau.com/views/metrotrain2019/Dashboard2?:languag
 const vizContainer = document.getElementById('vizContainer');
 const options = {
     hideTabs: true,
-    height: 1200,
-    width: 1800,
+    height: 2000,
+    width: 2200,
     onFirstInteraction: function() {
         workbook = viz.getWorkbook();
         activeSheet = workbook.getActiveSheet();
